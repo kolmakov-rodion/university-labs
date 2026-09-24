@@ -1,0 +1,17 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Локальная история для Visual Studio Code
+.history/
+
+# Созданные расширения Visual Studio Code
+*.vsix
+
+### Патч VisualStudioCode ###
+# Игнорировать всю локальную историю файлов
+.history
+.ionide
