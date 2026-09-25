@@ -1,13 +1,6 @@
-name = 'Vasya'
-age = 19
-height = 180.1
-is_student = False
+name = input()
+surname = input()
+age = int(input())
+height = float(input())
+print(name, surname, age, height, type(name), type(surname), type(age), type(height))
 
-print(name)
-print(age)
-print(height)
-print(is_student)
-print(type(name))
-print(type(age))
-print(type(height))
-print(type(is_student))
