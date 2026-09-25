@@ -1,11 +1,13 @@
-import math
+num = int(input("Введите число: "))
 
-radius = 5
+if num > 0:
+    print("Число положительное")
+elif num < 0:
+    print("Число отрицательное")
+else:
+    print("Число равно нулю")
 
-circumference = 2 * math.pi * radius
-area = math.pi * radius ** 2
-sqrt_value = math.sqrt(radius)
-
-print(f"Длина окружности: {circumference}")
-print(f"Площадь круга: {area}")
-print(f"Квадратный корень: {sqrt_value}")
+if num % 2 == 0:
+    print("Число чётное")
+else:
+    print("Число нечётное")
