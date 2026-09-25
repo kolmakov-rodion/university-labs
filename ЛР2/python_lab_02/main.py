@@ -1,8 +1,5 @@
-for i in range(1, 11):
-    print(i, end=' ')
-print()
-for i in range(10, 0, -1):
-    print(i, end=' ')
-print()
-for i in range(0, 21, 2):
-    print(i, end=' ')
+n = int(input())
+s = 0
+for i in range(1, n + 1):
+    s += i
+print(s)
