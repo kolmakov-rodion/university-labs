@@ -1,5 +1,11 @@
-count = 10
-while count >= 1:
-    print(count, end=' ')
-    count -= 1
-print("Цикл завершён")
+import math
+
+radius = 5
+
+circumference = 2 * math.pi * radius
+area = math.pi * radius ** 2
+sqrt_value = math.sqrt(radius)
+
+print(f"Длина окружности: {circumference}")
+print(f"Площадь круга: {area}")
+print(f"Квадратный корень: {sqrt_value}")
