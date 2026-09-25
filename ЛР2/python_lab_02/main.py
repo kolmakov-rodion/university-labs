@@ -1,6 +1,11 @@
-name = input()
-surname = input()
-age = int(input())
-height = float(input())
-print(name, surname, age, height, type(name), type(surname), type(age), type(height))
-
+a = 15
+b = 4
+print(f"Сумма (a + b): {a + b}")
+print(f"Разность (a - b): {a - b}")
+print(f"Произведение (a * b): {a * b}")
+print(f"Обычное деление (a / b): {a / b}")
+print(f"Целочисленное деление (a // b): {a // b}")
+print(f"Остаток от деления (a % b): {a % b}")
+print(f"Возведение в степень (a ** b): {a ** b}")
+print(f"Оригинальное выражение '2 + 3 * 4' = {2 + 3 * 4}")
+print(f"Измененное выражение '(2 + 3) * 4' = {(2 + 3) * 4}")
