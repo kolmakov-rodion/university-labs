@@ -1,7 +1,8 @@
-a = float(input())
-b = float(input())
-
-print(f"Сумма: {a + b}")
-print(f"Разность: {a - b}")
-print(f"Произведение: {a * b}")
-print(f"Деление: {a / b}")
+for i in range(1, 11):
+    print(i, end=' ')
+print()
+for i in range(10, 0, -1):
+    print(i, end=' ')
+print()
+for i in range(0, 21, 2):
+    print(i, end=' ')
