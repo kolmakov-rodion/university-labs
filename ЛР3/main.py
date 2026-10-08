@@ -1,12 +1,9 @@
-def find_element(numbers, target):
-    for i in range(len(numbers)):
-        if numbers[i] == target:
-            return i
-    return -1
+def analyze(numbers):
+    return min(numbers), max(numbers), sum(numbers) / len(numbers)
 
 
-nums = [4, 8, 15, 16, 23, 16, 42]
-print(find_element(nums, 16))
-print(find_element(nums, 100))
-print(find_element(nums, 4))
-print(find_element(nums, 42))
+numbers = [12, 7, 25, 3, 18, 9]
+minimum, maximum, average = analyze(numbers)
+print(minimum)
+print(maximum)
+print(average)
