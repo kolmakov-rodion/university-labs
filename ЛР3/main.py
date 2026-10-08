@@ -1,22 +1,17 @@
-def greet(name):
-    print(f"Привет, {name}!")
+def calculate_rectangle(width, height):
+    return width * height
 
 
-def square(number):
-    return number ** 2
+def calculate_perimeter(width, height):
+    return 2 * (width + height)
 
 
-def max_of_two(a, b):
-    if a > b:
-        return a
-    return b
+def describe_rectangle(width, height, unit="см"):
+    print(f"Прямоугольник {width}x{height} {unit}")
+    print(f"Площадь: {calculate_rectangle(width, height)} {unit}²")
+    print(f"Периметр: {calculate_perimeter(width, height)} {unit}")
 
 
-greet("Алиса")
-greet("Боб")
-
-print(square(5))
-print(square(-3))
-
-print(max_of_two(10, 20))
-print(max_of_two(-1, -5))
+describe_rectangle(5, 10)
+print()
+describe_rectangle(3, 7, unit="м")
