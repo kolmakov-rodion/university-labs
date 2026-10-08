@@ -1,17 +1,15 @@
-def calculate_rectangle(width, height):
-    return width * height
+value = 10
+def example():
+    value = 20
+    a = 10
+    print(value)
+print(a)
+example()
+print(value)
 
 
-def calculate_perimeter(width, height):
-    return 2 * (width + height)
-
-
-def describe_rectangle(width, height, unit="см"):
-    print(f"Прямоугольник {width}x{height} {unit}")
-    print(f"Площадь: {calculate_rectangle(width, height)} {unit}²")
-    print(f"Периметр: {calculate_perimeter(width, height)} {unit}")
-
-
-describe_rectangle(5, 10)
-print()
-describe_rectangle(3, 7, unit="м")
+# 1. Зафиксируйте результат выполнения программы.
+# 2. Объясните, почему выводятся два разных значения.
+# 3. Добавьте внутри функции ещё одну локальную переменную и
+# попробуйте обратиться к ней после вызова функции. Зафиксируйте и
+# объясните полученный результат.
