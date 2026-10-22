@@ -5,8 +5,8 @@ from pathlib import Path
 
 def main():
     file_path = Path('data') / 'measurements.txt'
-    print(file_path.exists())
-    print(Path.cwd())
+    # print(file_path.exists())
+    # print(Path.cwd())
     test_list = read_numbers(file_path)
     print(find_max(test_list))
     print(find_min(test_list))
