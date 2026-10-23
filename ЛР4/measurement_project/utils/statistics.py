@@ -10,3 +10,7 @@ def find_max(numbers):
     return max(numbers)
 
 
+def validate_numbers(numbers):
+    if not numbers:
+        raise ValueError("Список измерений пуст")
+    
